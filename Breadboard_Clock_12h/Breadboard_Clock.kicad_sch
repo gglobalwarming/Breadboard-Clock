@@ -1,0 +1,436 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5308307a-1adf-4322-aee7-8dd4f650843a")
+	(paper "A4")
+	(title_block
+		(title "12 Hour Breadboard Clock")
+		(date "2026-11-01")
+		(rev "1")
+		(company "KICAD Schematics by Jost Strnat")
+		(comment 1 "Design made from Ben Eater's YouTube series")
+		(comment 2 "https://www.youtube.com/watch?v=3XDH-fZKnQk&t=629s")
+	)
+	(lib_symbols)
+	(sheet
+		(at 29.21 82.55)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "58b41d32-e616-4fcf-92a7-3f60b3cbb93d")
+		(property "Sheetname" "Minutes Counter"
+			(at 29.21 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Minutes_Counter.kicad_sch"
+			(at 29.21 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 40.64)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7874454f-b270-489c-ae8d-e9897a555e74")
+		(property "Sheetname" "Square Wave Generator"
+			(at 29.21 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Square_Wave_Generator.kicad_sch"
+			(at 29.21 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 138.43)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "94fcc1a2-d82d-4bd4-8365-0245a57a8ac5")
+		(property "Sheetname" "Hours Display"
+			(at 29.21 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hours_Display.kicad_sch"
+			(at 29.21 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 96.52)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a11e73ee-5676-494e-b14f-9b55659ac514")
+		(property "Sheetname" "Hours Counter"
+			(at 29.21 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hours_Counter.kicad_sch"
+			(at 29.21 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 54.61)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b5ac9ab5-34af-4dcc-a410-18df908e0f63")
+		(property "Sheetname" "1Hz Square Wave Generator"
+			(at 29.21 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1Hz_Square_Wave_Generator.kicad_sch"
+			(at 29.21 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 68.58)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b6ad3aef-8bf1-4e8a-a879-a28e7f4dfb52")
+		(property "Sheetname" "Seconds Counter"
+			(at 29.21 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Seconds_Counter.kicad_sch"
+			(at 29.21 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 110.49)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ccee384c-8726-4c95-9bbf-e1df4578038a")
+		(property "Sheetname" "Colon LEDs"
+			(at 29.21 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Colon LEDs.kicad_sch"
+			(at 29.21 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 124.46)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1976037-d5f3-4e05-839b-c62e23f6451c")
+		(property "Sheetname" "Time Set Buttons"
+			(at 29.21 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Time_Set_Buttons.kicad_sch"
+			(at 29.21 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 26.67)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f2c09aae-9f80-4c5e-a969-fdd412602f0e")
+		(property "Sheetname" "Power"
+			(at 29.21 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 29.21 34.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Breadboard_Clock"
+				(path "/5308307a-1adf-4322-aee7-8dd4f650843a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
