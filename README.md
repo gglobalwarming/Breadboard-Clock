@@ -9,3 +9,5 @@ Board design: Not started.
 Build clock on PCB: I may or may not do this.  
   
 Note: I have not yet built the clock so my schematics are untested. Use blindly at your own risk. Please submit an issue if you find any errors!
+
+Attached footprints downloaded from Mouser entries for the relevant chips. https://eater.net/clock
